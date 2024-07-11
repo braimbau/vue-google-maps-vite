@@ -6,6 +6,7 @@ import Polygon from './components/polygon'
 import Circle from './components/circle'
 import Rectangle from './components/rectangle'
 import Marker from './components/marker.vue'
+import GMapCluster from './components/cluster.vue'
 import InfoWindow from './components/infoWindow.vue'
 import Map from './components/map.vue'
 import Heatmap from './components/heatmap'
@@ -24,6 +25,7 @@ export {
   Polygon,
   Circle,
   Rectangle,
+  GMapCluster,
   InfoWindow,
   Map,
   MapElementMixin,
@@ -65,6 +67,7 @@ export default function install(Vue, options) {
   if (options.installComponents) {
     Vue.component('GMapMap', Map)
     Vue.component('GMapMarker', Marker)
+    Vue.component('GMapCluster', GMapCluster)
     Vue.component('GMapInfoWindow', InfoWindow)
     Vue.component('GMapPolyline', Polyline)
     Vue.component('GMapPolygon', Polygon)

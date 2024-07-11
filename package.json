@@ -11,7 +11,7 @@
     "Vue 3 Google maps"
   ],
   "bugs": {
-    "url": "https://github.com/lakaaio/vue-google-maps/issues"
+    "url": "https://github.com/braimbau/vue-google-maps/issues"
   },
   "scripts": {
     "build": "node service/commands/build.js",
@@ -43,7 +43,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lakaaio/vue-google-maps-vite"
+    "url": "https://github.com/braimbau/vue-google-maps-vite"
   },
-  "types": "types/index.d.ts"
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "@googlemaps/markerclusterer": "^2.0.3"
+  }
 }

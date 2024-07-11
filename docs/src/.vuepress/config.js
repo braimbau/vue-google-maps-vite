@@ -67,6 +67,7 @@ module.exports = {
           '/components/map',
           '/components/marker',
           '/components/info-window',
+          '/components/cluster',
           '/components/circle',
           '/components/polygon',
           '/components/polyline',
