@@ -24,8 +24,8 @@ export {
   Polyline,
   Polygon,
   Circle,
-  Rectangle,
   GMapCluster,
+  Rectangle,
   InfoWindow,
   Map,
   MapElementMixin,
@@ -67,8 +67,8 @@ export default function install(Vue, options) {
   if (options.installComponents) {
     Vue.component('GMapMap', Map)
     Vue.component('GMapMarker', Marker)
-    Vue.component('GMapCluster', GMapCluster)
     Vue.component('GMapInfoWindow', InfoWindow)
+    Vue.component('GMapCluster', GMapCluster)
     Vue.component('GMapPolyline', Polyline)
     Vue.component('GMapPolygon', Polygon)
     Vue.component('GMapCircle', Circle)
